@@ -1,0 +1,23 @@
+.transactionHistory {
+  min-width: 35vw;
+  padding: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: hsla(175, 36%, 60%, 0.3);
+  border-radius: 20px;
+  border: 2px solid rgb(153, 113, 52);
+  box-shadow: 10px 10px 10px 0px #cab1b14d;
+}
+
+th {
+  color: black;
+  font-weight: 600;
+  font-size: 22px;
+  padding: 5px 0 5px 0;
+}
+
+td {
+  font-weight: 300;
+  font-size: 13px;
+  padding: 5px 0 5px 0;
+}

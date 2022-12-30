@@ -19,7 +19,7 @@ export const Statistics = ({ title, stats }) => {
     </section>
   );
 };
-
+// const randomColor = Math.floor(Math.random()*16777215).toString(16);
 Statistics.propTypes = {
     title: PropTypes.string,
     stats: PropTypes.arrayOf(PropTypes.shape({

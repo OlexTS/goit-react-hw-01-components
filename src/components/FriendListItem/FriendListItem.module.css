@@ -1,0 +1,12 @@
+.name {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.isOnline {
+  color: green;
+}
+
+.isOffline {
+  color: red;
+}
