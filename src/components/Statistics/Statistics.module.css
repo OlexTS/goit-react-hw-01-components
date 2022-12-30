@@ -1,0 +1,40 @@
+.statistics {
+  min-width: 30vw;
+  padding: 30px 20px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: hsla(175, 36%, 60%, 0.3);
+  border-radius: 20px;
+  border: 2px solid rgb(153, 113, 52);
+  box-shadow: 10px 10px 10px 0px #cab1b14d;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.statList {
+  display: flex;
+  gap: 15px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  background-color: azure;
+  border: 2px solid rgb(153, 113, 52);
+  border-radius: 5px;
+}
+
+.label,
+.percentage {
+  font-size: 18px;
+  font-weight: 500;
+}
