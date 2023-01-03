@@ -1,22 +1,23 @@
 import PropTypes from 'prop-types';
-import css from './Statistics.module.css'
+import { StatisticLoad, Title, StatList, Item, Label, Percentage } from './Statistics.styled';
+
 
 export const Statistics = ({ title, stats }) => {
   return (
-    <section className={css.statistics}>
-      {title && <h2 class={css.title}>{title}</h2>}
+    <StatisticLoad>
+      {title && <Title>{title}</Title>}
 
-      <ul className={css.statList}>
+      <StatList >
         {stats.map(stat => {
           return (
-            <li key={stat.id} className={css.item}>
-              <span className={css.label}>{stat.label}</span>
-              <span className={css.percentage}>{stat.percentage}%</span>
-            </li>
+            <Item key={stat.id} >
+              <Label >{stat.label}</Label>
+              <Percentage>{stat.percentage}%</Percentage>
+            </Item>
           );
         })}
-      </ul>
-    </section>
+      </StatList>
+    </StatisticLoad>
   );
 };
 // const randomColor = Math.floor(Math.random()*16777215).toString(16);
