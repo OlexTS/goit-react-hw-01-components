@@ -1,6 +1,11 @@
 import PropTypes from 'prop-types';
 import { CiWifiOff, CiWifiOn } from 'react-icons/ci';
-import { Card, FriendName, FriendOnline, FriendOffline } from './FriendListItem.styled';
+import {
+  Card,
+  FriendName,
+  FriendOnline,
+  FriendOffline,
+} from './FriendListItem.styled';
 
 export const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
